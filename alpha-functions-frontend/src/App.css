@@ -1,0 +1,11 @@
+
+
+.main-content {
+  background-color: #fff;
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  margin-top: 100px;
+}

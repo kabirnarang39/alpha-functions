@@ -1,0 +1,28 @@
+:root {
+    --form-background-color: #ffffff;
+    --form-border-radius: 20px;
+    --form-border-color: #8c8c94;
+    --form-border-width: 0.2px;
+    --form-min-height: 700px;
+    --form-width: 60%;
+}
+
+.form {
+    background-color: var(--form-background-color);
+    border-radius: var(--form-border-radius);
+    border: var(--form-border-width) solid var(--form-border-color);
+    width: var(--form-width);
+    position: fixed;
+    padding: 20px;
+    margin-left: 385px;
+    overflow: scroll;
+    max-height: var(--form-min-height);
+    padding-bottom: 60px;
+}
+
+input[type='file']::file-selector-button{
+    background-color: rgb(233, 145, 3);
+    color: white;
+    border: none;
+    padding: 0.2em 0.4em;
+}

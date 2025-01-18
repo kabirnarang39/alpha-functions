@@ -1,0 +1,28 @@
+/* Styling for the functions container */
+.functions-container {
+    background-color: #ffffff; /* Set a white background color */
+    border: none;
+    border-bottom: none;
+    height: 600px;
+    width: 75%;
+  }
+  
+  /* Loading spinner styling */
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Error message styling */
+  .error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f44336; /* Error color (red) */
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

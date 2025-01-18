@@ -1,0 +1,25 @@
+
+.navbar {
+  background-color: #fff;
+  color: #c21f1f;
+  top: 0;
+  left: 0;
+  position: sticky;
+  width: 100%;
+  border-bottom: 0.1px solid #8c8c94;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo Text styling */
+.navbar-logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;  /* Larger size for logo effect */
+  font-weight: 600;  /* Bold font for prominence */
+  color: #1305a4;  /* Dark navy blue color */
+  letter-spacing: 1px;  /* Slightly wider spacing between letters for a professional look */
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;  /* Smooth hover effect */
+  margin-left: 2px;
+}
