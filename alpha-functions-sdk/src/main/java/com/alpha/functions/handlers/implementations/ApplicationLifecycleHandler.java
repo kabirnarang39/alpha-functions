@@ -10,8 +10,6 @@ import java.util.function.Supplier;
 public class ApplicationLifecycleHandler implements ApplicationLifecycle {
 
     /**
-     * Executes a task with a timeout and handles exceptions.
-     *
      * @param argument the argument to be passed to the invoked handler
      */
     @Override
