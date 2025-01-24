@@ -5,6 +5,8 @@ image:
 
 replicaCount: 1
 
+namespace: alphafunctions
+
 service:
   type: ClusterIP
   port: 80
