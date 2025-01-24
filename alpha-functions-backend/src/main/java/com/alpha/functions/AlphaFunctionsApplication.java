@@ -23,13 +23,6 @@ public class AlphaFunctionsApplication {
     }
 
     @Bean
-    public ObjectMapper objectMapper() {
-        ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        return objectMapper;
-    }
-
-    @Bean
     public AppsV1Api kubernetesAppsClient() throws IOException {
         ApiClient client = Config.defaultClient();
         return new AppsV1Api(client);
