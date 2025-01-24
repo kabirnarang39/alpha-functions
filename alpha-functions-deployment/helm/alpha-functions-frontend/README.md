@@ -13,4 +13,5 @@ This Helm chart is designed to deploy the **alpha-functions-frontend** applicati
 To install the chart with default settings (no ingress):
 
 ```bash
-helm install alpha-functions-frontend ./alpha-functions-frontend
+helm repo add alpha-functions-frontend https://kabirnarang39.github.io/alpha-functions/alpha-functions-deployment/helm/alpha-functions-frontend/
+helm install alpha-functions-frontend alpha-functions-frontend/alpha-functions-frontend
