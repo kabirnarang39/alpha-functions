@@ -20,6 +20,4 @@ resources:
     cpu: "500m"
 
 env:
-  NODE_ENV: "production"
   REACT_APP_ALPHA_FUNCTIONS_BACKEND_URL: "http://alpha-functions-frontend-alpha-functions-frontend"
-  DEBUG: "false"
