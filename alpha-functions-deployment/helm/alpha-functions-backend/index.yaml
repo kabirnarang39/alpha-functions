@@ -3,12 +3,12 @@ entries:
   alpha-functions-backend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-01-25T14:39:00.607858+05:30"
+    created: "2025-01-25T15:55:38.173044+05:30"
     description: A Helm chart for Kubernetes
-    digest: ea63b16615ea624331914b5730f0964a34ca66a03a47e32b425793b26e49d825
+    digest: 3a3f457cae21a82a4d0ace043645920f613d032e3bc57bb8028115eb1a5a29f9
     name: alpha-functions-backend
     type: application
     urls:
     - https://kabirnarang39.github.io/alpha-functions/alpha-functions-deployment/helm/alpha-functions-backend/charts/alpha-functions-backend-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-25T14:39:00.606542+05:30"
+generated: "2025-01-25T15:55:38.170007+05:30"
