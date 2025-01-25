@@ -3,12 +3,12 @@ entries:
   alpha-functions-frontend:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-01-25T09:48:31.861418+05:30"
+    created: "2025-01-25T09:53:47.78279+05:30"
     description: A Helm chart for deploying the frontend app (alpha-functions-frontend)
       to Kubernetes
-    digest: 5e0d6f209c14b21f85076df316af3001282184cfa2b6c338de95b868dfe05d67
+    digest: 0092c04b9664c4fae4472f12155a3b73479af20a8b4afafbe709de255d08d48c
     name: alpha-functions-frontend
     urls:
     - https://kabirnarang39.github.io/alpha-functions/alpha-functions-deployment/helm/alpha-functions-frontend/charts/alpha-functions-frontend-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-25T09:48:31.859177+05:30"
+generated: "2025-01-25T09:53:47.781386+05:30"
