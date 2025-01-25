@@ -18,3 +18,8 @@ resources:
   limits:
     memory: "128Mi"
     cpu: "500m"
+
+env:
+  NODE_ENV: "production"
+  REACT_APP_ALPHA_FUNCTIONS_BACKEND_URL: "http://host.docker.internal"
+  DEBUG: "false"
